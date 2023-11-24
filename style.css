@@ -6,12 +6,11 @@ body {
 }
 
 .wrapper{
-  width: min(900px, 100% - 3rem);
-  margin-inline: auto;
+  width: min(900px, 100% - 1rem);
 }
 
 table {
-  width: 100%;
+  width: 120%;
   border-collapse: collapse;
   background: rgb(49, 57, 70);
 }
