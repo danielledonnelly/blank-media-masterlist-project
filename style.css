@@ -15,8 +15,12 @@ table {
   margin-inline: auto;
 }
 
+caption {
+  font-size:larger;
+  font-weight: bolder;
+}
+
 th {
-  font-weight: bold;
   text-align: left;
 }
 
