@@ -1,6 +1,4 @@
 
-
-
 .banner {
   border-collapse: collapse;
   border-spacing: 0;
@@ -11,6 +9,7 @@
 }
 
 body {
+  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   background: rgb(25, 34, 49);
@@ -20,17 +19,22 @@ body {
 }
 
 table { 
-  border-collapse: collapse; 
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: 1px solid black;
   border-spacing: 0; 
   padding: 0; 
   margin: 0%;
   width: 100%;
   height: 100%;
   background: rgb(49, 57, 70);
+  
 }
 
 .wrapper{
   margin-inline: auto;
+  
 }
 
 caption {
@@ -41,22 +45,26 @@ caption {
 th {
   text-align: left;
   font-size: medium;
+  
 }
 
 td {
   text-align: left;
   font-size: medium;
-
+  
 }
 
 caption,
 th, 
 td {
   padding: 1rem;
+  
 }
 
+/*Ever since I added this styling, I haven't been able to get the top of the table rounded. */
 tbody tr:nth-child(odd) {
   background-color: rgb(43, 49, 63);
   color: #fff;
+  
 }
 
