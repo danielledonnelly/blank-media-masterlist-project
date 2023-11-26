@@ -36,16 +36,18 @@ table {
 }
 
 caption {
-  font-size:larger;
+  font-size:large;
   font-weight: bolder;
 }
 
 th {
   text-align: left;
+  font-size: large;
 }
 
 td {
   text-align: left;
+  font-size: medium;
 
 }
 
