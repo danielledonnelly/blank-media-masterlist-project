@@ -3,7 +3,6 @@
   border-collapse: collapse;
   border-spacing: 0;
   padding: 0%;
-  margin: 0%;
   text-align: center;
   position:relative;
 }
@@ -18,14 +17,14 @@ body {
 }
 
 table { 
-  /*how do i keep this margin without having the scrollbar*/
-  margin: 20px;
+  /*how do i have a margin without having the scrollbar?*/
   border-collapse: separate;
   border-radius: 10px;
   border-spacing: 0; 
-  width: 97%;
+  width: 100%;
   height: 100%;
   background: rgb(49, 57, 70);
+  
   
   
 }
@@ -59,10 +58,22 @@ td {
   
 }
 
-/*Ever since I added this styling, I haven't been able to get the top of the table rounded. 
+tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
 tbody tr:nth-child(odd) {
   background-color: rgb(43, 49, 63);
   color: #fff;
   
-}*/
+}
 
